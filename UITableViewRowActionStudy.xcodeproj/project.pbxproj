@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F7D94B8519B94EC800538CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94B8419B94EC800538CC7 /* AppDelegate.swift */; };
-		F7D94B8719B94EC800538CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94B8619B94EC800538CC7 /* ViewController.swift */; };
+		F7D94B8719B94EC800538CC7 /* MYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94B8619B94EC800538CC7 /* MYViewController.swift */; };
 		F7D94B8A19B94EC800538CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D94B8819B94EC800538CC7 /* Main.storyboard */; };
 		F7D94B8C19B94EC800538CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D94B8B19B94EC800538CC7 /* Images.xcassets */; };
 		F7D94B9819B94EC800538CC7 /* UITableViewRowActionStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94B9719B94EC800538CC7 /* UITableViewRowActionStudyTests.swift */; };
+		F7D94BA219B9519F00538CC7 /* MYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D94BA119B9519F00538CC7 /* MYTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +29,13 @@
 		F7D94B7F19B94EC800538CC7 /* UITableViewRowActionStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewRowActionStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D94B8319B94EC800538CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D94B8419B94EC800538CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7D94B8619B94EC800538CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D94B8619B94EC800538CC7 /* MYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYViewController.swift; sourceTree = "<group>"; };
 		F7D94B8919B94EC800538CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D94B8B19B94EC800538CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7D94B9119B94EC800538CC7 /* UITableViewRowActionStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewRowActionStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D94B9619B94EC800538CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D94B9719B94EC800538CC7 /* UITableViewRowActionStudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewRowActionStudyTests.swift; sourceTree = "<group>"; };
+		F7D94BA119B9519F00538CC7 /* MYTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				F7D94B8419B94EC800538CC7 /* AppDelegate.swift */,
-				F7D94B8619B94EC800538CC7 /* ViewController.swift */,
+				F7D94B8619B94EC800538CC7 /* MYViewController.swift */,
+				F7D94BA119B9519F00538CC7 /* MYTableViewCell.swift */,
 				F7D94B8819B94EC800538CC7 /* Main.storyboard */,
 				F7D94B8B19B94EC800538CC7 /* Images.xcassets */,
 				F7D94B8219B94EC800538CC7 /* Supporting Files */,
@@ -208,7 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D94B8719B94EC800538CC7 /* ViewController.swift in Sources */,
+				F7D94B8719B94EC800538CC7 /* MYViewController.swift in Sources */,
+				F7D94BA219B9519F00538CC7 /* MYTableViewCell.swift in Sources */,
 				F7D94B8519B94EC800538CC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 				F7D94B9D19B94EC800538CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7D94B9E19B94EC800538CC7 /* Build configuration list for PBXNativeTarget "UITableViewRowActionStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				F7D94BA019B94EC800538CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
